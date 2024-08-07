@@ -4,5 +4,5 @@
 }
 
 #landingBackground {
-    background-image: url("{{site.baseurl}}/assets/images/beach.png");
+    background-image: url("{{ site.baseurl }}/assets/images/beach.png");
 }
