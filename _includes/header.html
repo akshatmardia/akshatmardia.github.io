@@ -1,33 +1,11 @@
-<header class="split {% if page.style == 'style2' or page.style == 'style3' %}positionStatic {% if page.style =='style3' %}style3HeaderColor{% endif %}{% endif %}">
-    <a href="{{site.baseurl}}/" class="webTitle">Arthur&nbsp;Liu</a>
-    <!-- Special thanks in particular for hamburger menu for W3 schools (among other helpful guidance provided!) -->
-    <div id="hamburgerMenu" onclick="menuClicked(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </div>
-    <nav> <!-- add titles!!! title="mouseover text" -->
-        <ul id="navLinks">
-            <li>
-                <a class="rightLink {% if page.activeLink == 'home' %}active{% endif %}" id="home" href="{{site.baseurl}}/">home</a>
-            </li>
-            <li>
-                <a class="rightLink {% if page.activeLink == 'about' %}active{% endif %}" href="{{site.baseurl}}/about">about</a>
-            </li>
-            <li>
-                <a class="rightLink {% if layout.activeLink == 'blog' or page.activeLink == 'blog' %}active{% endif %}" href="{{site.baseurl}}/blog">blog</a>
-            </li>
-            <!-- <li>
-                <a class="rightLink {% if page.activeLink == 'project' %}active{% endif %}" href="{{site.baseurl}}/projects">projects</a>
-            </li> -->
-            <li>
-                <a class="rightLink {% if page.activeLink == 'archive' %}active{% endif %}"  href="{{site.baseurl}}/archive">archive</a>
-            </li>
-
-            <li>
-                <a class="rightLink" target="_blank" href="{{site.baseurl}}/files/resume/ArthurLiuResume.pdf">resume</a>
-            </li>
-        </ul>
+<header>
+    <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+    <nav>
+      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/about">About</a>
+      <a href="{{ site.baseurl }}/blog">Blog</a>
+      <a href="{{ site.baseurl }}/archive">Archive</a>
+      <a href="{{ site.baseurl }}/resume">Resume</a>
     </nav>
-
-</header>
+  </header>
+  
