@@ -1,0 +1,34 @@
+<footer {% if page.style == 'style2' %}class="blogFooterColor"{% endif %}> 
+    <div class="contactButtons">
+        <a class="button" href="mailto:{{site.email}}" target="_top" title="email @ {{site.email}}"><img src="{{site.baseurl}}/images/EmailSmaller.png"></a>
+        <a class="button" href="https://github.com/{{site.github_username}}" title="github @ {{site.github_username}}" target="_blank"><img src="{{site.baseurl}}/images/GitHubMedium.png"></a>
+        <a class="button" href="https://www.linkedin.com/in/{{site.linkedin_username}}" title="linkedin @ {{site.linkedin_username}}" target="_blank"><img src="{{site.baseurl}}/images/LinkedinReal.png"></a>
+    </div>
+    <div id="emailAddress">{{site.email}}</div>
+    <nav>
+        <ul>
+            <li>
+                <a class="links" href="{{site.baseurl}}/">home</a>
+            </li>
+            <li>
+                <a class="links" href="{{site.baseurl}}/about">about</a>
+            </li>
+            <li>
+                <a class="links" href="{{site.baseurl}}/blog">blog</a>
+            </li>
+            <li>
+                <a class="links" href="{{site.baseurl}}/archive">archive</a>
+            </li>
+            <!-- <li>
+                <a class="links" href="{{site.baseurl}}/projects">projects</a>
+            </li> -->
+            <!-- <li>
+                <a class="links" href="{{site.baseurl}}/presentations">presentations</a>
+            </li> -->
+            <li>
+                <a class="links" target="_blank" href="{{site.baseurl}}/files/resume/ArthurLiuResume.pdf">resume</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="copyright">Made with ⭐ by Arthur Liu 2022</div>
+</footer>
