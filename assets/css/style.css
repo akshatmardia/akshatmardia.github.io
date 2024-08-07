@@ -1,8 +1,18 @@
 .hero-image {
     position: relative;
-    align-items: center;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #landingBackground {
-    background-image: url("{{ site.baseurl }}/assets/images/beach.png");
+    background-image: url(/assets/images/beach.png);
+    background-position: center;
+}
+
+#aboutMeText {
+    font-weight: normal;
 }
