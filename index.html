@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+    <nav>
+      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/about">About</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero-image">
+      <div class="hero-text">
+        <h1>akshat mardia</h1>
+        <nav>
+          <a href="#about" class="nav-link">about</a>
+          <a href="#blog" class="nav-link">blog</a>
+          <a href="#archive" class="nav-link">archive</a>
+          <a href="#resume" class="nav-link">resume</a>
+        </nav>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About</h2>
+      <p>This is the about section.</p>
+    </section>
+    <section id="blog">
+      <h2>Blog</h2>
+      <p>This is the blog section.</p>
+    </section>
+    <section id="archive">
+      <h2>Archive</h2>
+      <p>This is the archive section.</p>
+    </section>
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>This is the resume section.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
