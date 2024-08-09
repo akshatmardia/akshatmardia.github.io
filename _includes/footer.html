@@ -1,9 +1,10 @@
 <footer>
-    <div class="contactButtons">
-        <a class="button" href="mailto:{{site.email}}" target="_top" title="email @ {{site.email}}"><img src="{{ site.baseurl }}/assets/images/email.png"></a>
-        <a class="button" href="https://github.com/{{site.github_username}}" title="github @ {{site.github_username}}" target="_blank"><img src="{{ site.baseurl }}/assets/images/github.png"></a>
-        <a class="button" href="https://www.linkedin.com/in/{{site.linkedin_username}}" title="linkedin @ {{site.linkedin_username}}" target="_blank"><img src="{{ site.baseurl }}/assets/images/linkedin.png"></a>
+    <div class="contact-buttons">
+        <a class="button" href="mailto:{{site.email}}" target="_top" title="email @ {{site.email}}"><img src="{{ site.baseurl }}/assets/images/email.svg"></a>
+        <a class="button" href="https://github.com/{{site.github_username}}" title="github @ {{site.github_username}}" target="_blank"><img src="{{ site.baseurl }}/assets/images/github.svg"></a>
+        <a class="button" href="https://www.linkedin.com/in/{{site.linkedin_username}}" title="linkedin @ {{site.linkedin_username}}" target="_blank"><img src="{{ site.baseurl }}/assets/images/linkedin.svg"></a>
     </div>
-    <div id="emailAddress">{{site.email}}</div>
+    <div id="emailText">{{ site.email }}</div>
+    <div id="footnote">Made by {{ site.title }}. Copyright &copy; 2024</div>
 </footer>
   
