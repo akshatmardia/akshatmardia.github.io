@@ -11,10 +11,27 @@
 }
 
 #landingBackground {
-    background-image: url(/assets/images/beach.png);
+    background-image: url(/assets/images/beach-sky.png);
     background-position: center;
 }
 
-#aboutMeText {
-    font-weight: normal;
+.main-content {
+    height: auto;
+}
+
+#introText {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+#introTitle {
+    font-size: 3em;
+}
+
+#introduction {
+    font-size: 1.2em;
+    display: flexbox;
 }
