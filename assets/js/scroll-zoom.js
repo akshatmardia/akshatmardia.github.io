@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     gsap.from(".title-box", {
         scale: 200, 
         y: 0,  // Start centered
+        force3D: false,
         stagger: 0.25, 
         duration: 3,
         scrollTrigger: {
