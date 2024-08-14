@@ -11,8 +11,74 @@
 }
 
 #landingBackground {
-    background-image: url(/assets/images/beach-sky.png);
+    /* background-image: url(/assets/images/beach-sky.png); */
+    background-color: black;
     background-position: center;
+}
+
+.title-box {
+    display: flex;
+    /* height: 80vh; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#prev {
+    color: white;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    margin: 0;
+    margin-top: 10px;
+    line-height: 1; 
+    font-weight: 500; /* 500 for regular, 600 for slight bold */
+    margin-right: 10px;
+}
+
+.title-text {
+    color: antiquewhite;
+    text-align: center;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family: San Francisco; */
+    font-family: SF Pro Display;
+    letter-spacing: 1px;
+    font-size: 3em;
+    text-decoration: none;
+    transition: color 0.5s;
+    /* font-weight: bold; */
+}
+
+#typewriter {
+    color: white;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    width: 50%;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 1; 
+    font-weight: 500; /* 500 for regular, 600 for slight bold */
+}
+
+.blinking-cursor {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 1em;
+    color: white;
+    animation: blink 1s step-end infinite;
+}
+  
+@keyframes blink {
+    from, to {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
 
 .main-content {

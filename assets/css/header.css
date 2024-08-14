@@ -1,74 +1,31 @@
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     color: white;
     padding: 20px;
     z-index: 10;
-}
-
-.land-title {
-    color: white;
-    text-transform: lowercase;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    letter-spacing: 1px;
-    font-size: 1.8em;
-    text-decoration: none;
-    transition: color 0.5s;
-    font-weight: bold;
-}
-
-.land-title:hover {
-    color: black;
+    background-color: black;
 }
 
 header nav {
-    margin-top: 20px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 header nav a.top-menu {
-    margin-right: 40px;
-    text-transform: lowercase;
-    color: white;
+    display: inline-block;
+    margin: 0 150px 0 150px;
+    color: antiquewhite;
     letter-spacing: 1px;
     text-decoration: none;
     font-size: 1.3em;
     transition: color 0.3s;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: SF Pro Display;
 }
 
 header nav a.top-menu:hover {
-    color: black;
-}
-
-#typewriter {
-    display: inline-block;
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 1px;
-    font-size: 1.2em;
-    width: 50%;
-    margin: 0;
-    margin-top: 10px;
-    line-height: 1; 
-    font-weight: 500; /* 500 for regular, 600 for slight bold */
-}
-
-.blinking-cursor {
-    display: inline-block;
-    font-weight: bolder;
-    font-size: 1em;
-    color: white;
-    animation: blink 1s step-end infinite;
-}
-  
-@keyframes blink {
-    from, to {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
+    /* color: rgb(164, 164, 164); */
+    color: rgb(253, 178, 81);
 }
