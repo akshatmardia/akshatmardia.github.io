@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const { innerHeight } = window;
 
     gsap.from(".title-box", {
-        scale: 0, 
+        scale: 200, 
         y: 0,  // Start centered
         stagger: 0.25, 
         duration: 3,
@@ -15,14 +15,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    gsap.to(".hero-image", {
-        scrollTrigger: {
-            trigger: ".main-content",  // When the next section starts
-            start: "top top",  // Start pinning as the next section's top reaches the top
-            pin: true,
-            pinSpacing: false, // No additional space added when pinning
-            scrub: 0
-        }
-    });
+    // gsap.to(".hero-image", {
+    //     scrollTrigger: {
+    //         trigger: ".main-content",  // When the next section starts
+    //         start: "top top",  // Start pinning as the next section's top reaches the top
+    //         pin: true,
+    //         pinSpacing: false, // No additional space added when pinning
+    //         scrub: 0
+    //     }
+    // });
 });
 
