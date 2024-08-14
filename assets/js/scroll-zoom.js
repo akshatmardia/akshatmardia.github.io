@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const { innerHeight } = window;
 
     gsap.from(".title-box", {
-        scale: 50, 
+        scale: 0, 
         y: 0,  // Start centered
         stagger: 0.25, 
         duration: 3,
