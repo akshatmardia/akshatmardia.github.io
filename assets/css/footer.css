@@ -2,6 +2,7 @@ footer {
     background-color: rgb(240, 240, 240);
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: auto;
 }
 
 .contact-buttons {

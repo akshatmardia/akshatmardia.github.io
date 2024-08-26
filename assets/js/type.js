@@ -1,5 +1,5 @@
 var i = 0;
-var content = "I am an engineer from the UW in Seattle. Mount Rainier bitches!";
+var content = "Welcome to my personal website! Please scroll down.";
 var speed = 80;
 
 function animation() {
