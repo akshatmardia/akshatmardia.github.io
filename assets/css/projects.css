@@ -81,14 +81,14 @@
     line-height: 1.5;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
+    #projectSection {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
     .grid {
         grid-template-columns: 1fr;
-    }
-    
-    body {
-        padding: 1rem;
+        padding: 0;
     }
     
     .project {

@@ -110,3 +110,37 @@
     font-size: 1.2em;
     display: flexbox;
 }
+
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+
+    .title-text {
+      font-size: 2em;
+    }
+  
+    #prev, #typewriter {
+      font-size: 1em;
+      width: auto;
+    }
+  
+    #typewriter {
+      width: 80%;
+    }
+  
+    #stickyText {
+      font-size: 1.5em;
+    }
+  
+    #introTitle {
+      font-size: 2em;
+    }
+  
+    #introduction {
+      font-size: 1em;
+    }
+  
+    #introText {
+      padding-top: 15%;
+      padding-bottom: 15%;
+    }
+  }

@@ -90,3 +90,57 @@
 .edu1 {
     margin-right: 4%; /* or 14px */
 }
+
+@media screen and (max-width: 768px) {
+    #aboutSection {
+      padding-top: 15%;
+      padding-bottom: 15%;
+    }
+  
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 8%;
+    }
+  
+    .about-text-box {
+      flex-direction: column;
+      width: 85%;
+      margin-top: 5%;
+      margin-bottom: 8%;
+    }
+  
+    .text-column {
+      font-size: 18px;
+      padding-right: 0;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+  
+    .education {
+      width: 85%;
+      grid-auto-flow: row;
+      gap: 30px;
+    }
+  
+    .uw-img, .ib-img {
+      height: 120px;
+      margin: 0 auto;
+    }
+  
+    .edu-textbox {
+      padding-top: 30px;
+      row-gap: 30px;
+      text-align: center;
+    }
+  
+    .edu-caption {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .edu1 {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  }
