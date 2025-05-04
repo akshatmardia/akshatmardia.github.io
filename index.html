@@ -10,20 +10,72 @@ activeLink: home
     <p id="typewriter"></p>
 </section>
 
-<section class="main-content">
+<section class="main-content" id="main-content-about">
     <div id="stickyText">
         Akshat&nbsp;Mardia
+    </div>
+    <div class="about-image">
+        <img src="/assets/images/img/kenya.png" alt="Akshat Mardia" class="profile-image">
     </div>
 	<div class="content" id="introText">
 		<h1 id="introTitle">Hello!</h1>
 		<p id="introduction">
-			I'm Akshat Mardia. I'm an electrical and computer engineer from the University of Washington. 
+			I'm Akshat Mardia. I'm an electrical and computer engineer from the University of Washington.
+		</p>
+        <p id="introduction">
+			I recently graduated from the University of Washington, Seattle where I majored in Electrical and Computer
+            Engineering. I ski, climb, play soccer, play golf, and play most of the racket sports.
+		</p>
+        <p id="introduction">
+			You will find my projects if you scroll down. Currently, I'm contributing to open source as much as possible
+            and learning as much as I can.
 		</p>
 	</div>
 </section>
 
+<section id="projectSection">
+    <div class="container">
+        <h1 class="main-heading">These are my projects.</h1>
+        <div class="grid">
+            <a href="https://github.com/akshatmardia/hairline-tracker.git" target="_blank" class="project">
+                <h2>Hairline Tracker</h2>
+                <p>An image processing application in Python using OpenCV to identify and track
+                    key points on the hairline to measure hair loss treatment</p>
+            </a>
+
+            <a href="https://github.com/akshatmardia/trading-bot.git" target="_blank" class="project">
+                <h2>Trading Bot</h2>
+                <p>An ML-powered trading bot using PyTorch for sentiment analysis via the FinBERT NLP
+                    model on financial news, integrated with Alpaca API for live trading</p>
+            </a>
+
+            <a href="https://github.com/akshatmardia/paintr.git" target="_blank" class="project">
+                <h2>Paintr</h2>
+                <p>A joystick controlled paint app on the Intel FPGA using SystemVerilog in Quartus</p>
+            </a>
+
+            <a href="https://github.com/akshatmardia/arm-processor.git" target="_blank" class="project">
+                <h2>ARM Processor</h2>
+                <p>A 5-stage pipelined ARM processor in SystemVerilog with advanced hazard resolution</p>
+            </a>
+            
+            <a href="javascript:void(0)" class="project">
+                <h2>FIR Filter</h2>
+                <p>An N-sample FIR filter on FPGA using SystemVerilog, featuring asynchronized
+                    FIFO-accumulator architecture for real-time audio noise reduction</p>
+            </a>
+            
+            <a href="javascript:void(0)" class="project">
+                <h2>Connect Four</h2>
+                <p>The fun game of Connect Four on the Intel FPGA</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+
 <section id="aboutSection">
-    <div class="about-image">
+    <!-- <div class="about-image">
         <img src="/assets/images/img/kenya.png" alt="Akshat Mardia" class="profile-image">
     </div>
     <div class="about-text-box">
@@ -36,10 +88,9 @@ activeLink: home
             I have worked on digital circuit design projects using SystemVerilog, computer vision and machine learning
             projects and have a special interest in distributed systems. Currently, I'm trying to build my own algorithmic
             trading bot based on news sentiment and give it access to a small amount of funds to trade.
-
         </div>
 
-    </div>
+    </div> -->
     <div class="education">
         <div class="edu1" role="listitem">
             <img src="/assets/images/uw-logo1.png" alt="University of Washington" class="uw-img">

@@ -94,11 +94,27 @@
     opacity: 1;
 }
 
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    margin-top: 10%;
+    pointer-events: none;
+}
+
 #introText {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     text-align: center;
-    padding-top: 20%;
+    /* padding-top: 20%; */
     padding-bottom: 20%;
 }
 
@@ -106,9 +122,18 @@
     font-size: 3em;
 }
 
-#introduction {
+/* #introduction {
     font-size: 1.2em;
     display: flexbox;
+} */
+
+#introduction {
+    font-size: 1.4em;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    word-wrap: break-word;
+    padding-bottom: 3%;
 }
 
 /* Mobile Devices */
@@ -130,6 +155,12 @@
     #stickyText {
       font-size: 1.5em;
     }
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 8%;
+      }
   
     #introTitle {
       font-size: 2em;
